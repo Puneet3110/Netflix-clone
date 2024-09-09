@@ -1,0 +1,112 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.sign-in:hover {
+    background-color: #f40612;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/78cfadaf-8f91-4322-857a-709fd32b0b28/774144a5-a4ea-4c70-a96a-e252d508fc55/GB-en-20230911-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cta-button:hover {
+    background-color: #f40612;
+}
+
+/* Movie Thumbnails Section */
+.movie-section {
+    padding: 40px;
+}
+
+.movie-section h2 {
+    margin-bottom: 20px;
+}
+
+.movie-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-thumbnails img {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.movie-thumbnails img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
